@@ -1,0 +1,28 @@
+﻿Сборка начата 29.09.2019 13:27:36.
+     1>Проект "d:\C++projects\oop3\oop3\oop3.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\oop3.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         D:\VisualStudio\Professional\VC\Tools\MSVC\14.22.27905\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt oop3.cpp
+         oop3.cpp
+     1>d:\C++projects\oop3\oop3\oop3.cpp(12,12): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>d:\C++projects\oop3\oop3\oop3.cpp(32,15): warning C4305:  =: усечение из "double" в "float"
+       Link:
+         D:\VisualStudio\Professional\VC\Tools\MSVC\14.22.27905\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C++projects\oop3\Debug\oop3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\C++projects\oop3\Debug\oop3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C++projects\oop3\Debug\oop3.lib" /MACHINE:X86 Debug\oop3.obj
+         oop3.vcxproj -> D:\C++projects\oop3\Debug\oop3.exe
+       FinalizeBuildStatus:
+         Файл "Debug\oop3.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\oop3.tlog\oop3.lastbuildstate".
+     1>Сборка проекта "d:\C++projects\oop3\oop3\oop3.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "d:\C++projects\oop3\oop3\oop3.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         d:\C++projects\oop3\oop3\oop3.cpp(12,12): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         d:\C++projects\oop3\oop3\oop3.cpp(32,15): warning C4305:  =: усечение из "double" в "float"
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:03.38
